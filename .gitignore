@@ -1,0 +1,23 @@
+# Binários gerados pela compilação
+bin/
+
+# Arquivos objeto e bibliotecas intermediárias
+*.o
+*.a
+*.so
+*.dll
+
+# Executáveis
+*.exe
+programa
+testeRegressivo
+
+# Arquivos de editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
