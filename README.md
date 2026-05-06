@@ -1,4 +1,4 @@
-# 🖥️ cpp-estudos-ufop
+#  cpp-estudos-ufop
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue?style=for-the-badge&logo=c%2B%2B)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
