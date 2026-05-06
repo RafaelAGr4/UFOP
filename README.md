@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Estrutura de Diretórios](#-estrutura-de-diretórios)
@@ -22,13 +22,13 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório reúne implementações em C++ com foco em boas práticas de versionamento, estruturação de projetos e desenvolvimento orientado a testes (TDD). O fluxo de trabalho segue o modelo **GitFlow**, com branches `master`, `staging` e `develop`.
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```
 cpp-estudos-ufop/
@@ -48,7 +48,7 @@ cpp-estudos-ufop/
 
 ---
 
-## 🔧 Pré-requisitos
+## Pré-requisitos
 
 - GCC / G++ (versão 9 ou superior)
 - GNU Make
@@ -64,7 +64,7 @@ sudo pacman -S base-devel git
 
 ---
 
-## ⚙️ Como Compilar
+##  Como Compilar
 
 ```bash
 # Compilar o projeto principal
@@ -82,7 +82,7 @@ make clean
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 ### `calcularFatorial(int n)`
 Calcula o fatorial de um número inteiro não-negativo.
@@ -102,7 +102,7 @@ int resultado = calcularFibonacci(7); // retorna 13
 
 ---
 
-## 🧪 Testes
+## Testes
 
 Os testes funcionais ficam em `test/main.cpp` e utilizam `assert` para validação. O binário de teste é gerado em `bin/testeRegressivo`.
 
@@ -113,7 +113,7 @@ make test
 
 ---
 
-## 🌿 Fluxo de Desenvolvimento (GitFlow)
+## Fluxo de Desenvolvimento (GitFlow)
 
 | Branch      | Finalidade                                      |
 |-------------|--------------------------------------------------|
@@ -123,15 +123,5 @@ make test
 | `feat/...`  | Branch de feature, criada a partir de `develop`  |
 
 **Boards de Issues:**
-- 📌 Sprint Backlog → 🔨 Doing → ⏳ Waiting Acceptance → ✅ Done
+ Sprint Backlog →  Doing →  Waiting Acceptance →  Done
 
----
-
-## 👤 Autor
-
-Desenvolvido por **Rafael** — Estudante de BCC/UFOP  
-📍 Ouro Preto, MG
-
----
-
-*"Talk is cheap. Show me the code."* — Linus Torvalds
