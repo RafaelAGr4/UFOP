@@ -36,7 +36,6 @@ void testarFibonacci() {
     assert(calcularFibonacci(7) == 13);
     assert(calcularFibonacci(10) == 55);
 
-    // Caso de erro: negativo deve lançar exceção
     bool excecaoLancada = false;
     try {
         calcularFibonacci(-1);
